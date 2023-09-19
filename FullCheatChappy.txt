@@ -1,0 +1,2189 @@
+items:
+  - type: STR_BLASTER_LAUNCHER
+    requires:
+    #  - STR_BLASTER_LAUNCHER
+      - STR_ALIENS_ONLY
+    size: 0.3
+    costSell: 144000
+    weight: 16
+    bigSprite: 35
+    floorSprite: 34
+    handSprite: 56
+    bulletSprite: 10
+    fireSound: 53
+    compatibleAmmo:
+      - STR_BLASTER_BOMB
+    accuracyAimed: 120
+    tuAimed: 66
+    battleType: 1
+    twoHanded: true
+    waypoints: 2 # Nerf
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 5
+    armor: 40
+  - type: STR_PSI_AMP
+    requires:
+    #  - STR_PSI_AMP
+      - STR_ALIENS_ONLY
+    size: 0.1
+    costSell: 194700
+    weight: 10
+    bigSprite: 33
+    floorSprite: 32
+    handSprite: 88
+    hitSound: 36
+    battleType: 9
+    twoHanded: true
+    invWidth: 1
+    invHeight: 3
+    tuUse: 25
+    flatRate: true
+startingBase:
+    soldiers:
+      - type: STR_SOLDIER
+        id: 1
+        name: Celine Bissonnette
+        nationality: 0
+        initialStats:
+          tu: 70
+          stamina: 55
+          health: 55
+          bravery: 70
+          reactions: 65
+          firing: 90
+          throwing: 35
+          strength: 25
+          psiStrength: 80
+          psiSkill: 65
+          melee: 55
+        currentStats:
+          tu: 70
+          stamina: 55
+          health: 55
+          bravery: 70
+          reactions: 65
+          firing: 90
+          throwing: 35
+          strength: 25
+          psiStrength: 80
+          psiSkill: 65
+          melee: 55
+        rank: 0
+        gender: 1
+        look: 0
+        missions: 0
+        kills: 0
+        armor: STR_NONE_UC
+        improvement: 0
+        psiStrImprovement: 0
+        tags: ~
+      - type: STR_SOLDIER
+        id: 2
+        name: Charles Bean
+        nationality: 0
+        initialStats:
+          tu: 90
+          stamina: 35
+          health: 60
+          bravery: 90
+          reactions: 70
+          firing: 80
+          throwing: 30
+          strength: 25
+          psiStrength: 60
+          psiSkill: 70
+          melee: 35
+        currentStats:
+          tu: 90
+          stamina: 35
+          health: 60
+          bravery: 90
+          reactions: 70
+          firing: 80
+          throwing: 30
+          strength: 25
+          psiStrength: 60
+          psiSkill: 70
+          melee: 35
+        rank: 0
+        gender: 0
+        look: 0
+        missions: 0
+        kills: 0
+        armor: STR_NONE_UC
+        improvement: 0
+        psiStrImprovement: 0
+        tags: ~
+      - type: STR_SOLDIER
+        id: 3
+        name: Ina Toso
+        nationality: 0
+        initialStats:
+          tu: 65
+          stamina: 50
+          health: 60
+          bravery: 50
+          reactions: 65
+          firing: 50
+          throwing: 35
+          strength: 40
+          psiStrength: 75
+          psiSkill: 65
+          melee: 25
+        currentStats:
+          tu: 65
+          stamina: 50
+          health: 60
+          bravery: 50
+          reactions: 65
+          firing: 50
+          throwing: 35
+          strength: 40
+          psiStrength: 75
+          psiSkill: 65
+          melee: 25
+        rank: 0
+        gender: 1
+        look: 0
+        missions: 0
+        kills: 0
+        armor: STR_NONE_UC
+        improvement: 0
+        psiStrImprovement: 0
+        tags: ~
+      - type: STR_SOLDIER
+        id: 4
+        name: Liam Burke
+        nationality: 0
+        initialStats:
+          tu: 75
+          stamina: 60
+          health: 65
+          bravery: 90
+          reactions: 75
+          firing: 65
+          throwing: 45
+          strength: 30
+          psiStrength: 60
+          psiSkill: 45
+          melee: 85
+        currentStats:
+          tu: 75
+          stamina: 60
+          health: 65
+          bravery: 90
+          reactions: 75
+          firing: 65
+          throwing: 45
+          strength: 30
+          psiStrength: 60
+          psiSkill: 45
+          melee: 85
+        rank: 0
+        gender: 0
+        look: 0
+        missions: 0
+        kills: 0
+        armor: STR_NONE_UC
+        improvement: 0
+        psiStrImprovement: 0
+        tags: ~
+      - type: STR_SOLDIER
+        id: 5
+        name: Joe Cook
+        nationality: 0
+        initialStats:
+          tu: 75
+          stamina: 75
+          health: 70
+          bravery: 80
+          reactions: 80
+          firing: 60
+          throwing: 40
+          strength: 45
+          psiStrength: 55
+          psiSkill: 80
+          melee: 70
+        currentStats:
+          tu: 75
+          stamina: 75
+          health: 70
+          bravery: 80
+          reactions: 80
+          firing: 60
+          throwing: 40
+          strength: 45
+          psiStrength: 55
+          psiSkill: 80
+          melee: 70
+        rank: 0
+        gender: 0
+        look: 0
+        missions: 0
+        kills: 0
+        armor: STR_NONE_UC
+        improvement: 0
+        psiStrImprovement: 0
+        tags: ~
+      - type: STR_SOLDIER
+        id: 6
+        name: Jamie Snetsinger
+        nationality: 0
+        initialStats:
+          tu: 65
+          stamina: 40
+          health: 75
+          bravery: 40
+          reactions: 65
+          firing: 55
+          throwing: 45
+          strength: 40
+          psiStrength: 90
+          psiSkill: 90
+          melee: 55
+        currentStats:
+          tu: 65
+          stamina: 40
+          health: 75
+          bravery: 40
+          reactions: 65
+          firing: 55
+          throwing: 45
+          strength: 40
+          psiStrength: 90
+          psiSkill: 90
+          melee: 55
+        rank: 0
+        gender: 0
+        look: 0
+        missions: 0
+        kills: 0
+        armor: STR_NONE_UC
+        improvement: 0
+        psiStrImprovement: 0
+        tags: ~
+      - type: STR_SOLDIER
+        id: 7
+        name: Darrin Michelson
+        nationality: 0
+        initialStats:
+          tu: 65
+          stamina: 45
+          health: 80
+          bravery: 80
+          reactions: 65
+          firing: 65
+          throwing: 50
+          strength: 40
+          psiStrength: 80
+          psiSkill: 70
+          melee: 31
+        currentStats:
+          tu: 65
+          stamina: 45
+          health: 80
+          bravery: 80
+          reactions: 65
+          firing: 65
+          throwing: 50
+          strength: 40
+          psiStrength: 80
+          psiSkill: 70
+          melee: 31
+        rank: 0
+        gender: 0
+        look: 2
+        missions: 0
+        kills: 0
+        armor: STR_NONE_UC
+        improvement: 0
+        psiStrImprovement: 0
+        tags: ~
+      - type: STR_SOLDIER
+        id: 8
+        name: Eric Meloche
+        nationality: 0
+        initialStats:
+          tu: 85
+          stamina: 60
+          health: 80
+          bravery: 55
+          reactions: 70
+          firing: 55
+          throwing: 60
+          strength: 45
+          psiStrength: 60
+          psiSkill: 60
+          melee: 45
+        currentStats:
+          tu: 85
+          stamina: 60
+          health: 80
+          bravery: 55
+          reactions: 70
+          firing: 55
+          throwing: 60
+          strength: 45
+          psiStrength: 60
+          psiSkill: 60
+          melee: 45
+        rank: 0
+        gender: 0
+        look: 0
+        missions: 0
+        kills: 0
+        armor: STR_NONE_UC
+        improvement: 0
+        psiStrImprovement: 0
+        tags: ~
+      - type: STR_SOLDIER
+        id: 9
+        name: Ryan Valley
+        nationality: 0
+        initialStats:
+          tu: 65
+          stamina: 55
+          health: 90
+          bravery: 70
+          reactions: 70
+          firing: 60
+          throwing: 50
+          strength: 55
+          psiStrength: 40
+          psiSkill: 55
+          melee: 50
+        currentStats:
+          tu: 65
+          stamina: 55
+          health: 90
+          bravery: 70
+          reactions: 70
+          firing: 60
+          throwing: 50
+          strength: 55
+          psiStrength: 40
+          psiSkill: 55
+          melee: 50
+        rank: 0
+        gender: 0
+        look: 2
+        missions: 0
+        kills: 0
+        armor: STR_NONE_UC
+        improvement: 0
+        psiStrImprovement: 0
+        tags: ~
+      - type: STR_SOLDIER
+        id: 10
+        name: Frederick Bell
+        nationality: 0
+        initialStats:
+          tu: 80
+          stamina: 50
+          health: 60
+          bravery: 60
+          reactions: 85
+          firing: 85
+          throwing: 40
+          strength: 45
+          psiStrength: 70
+          psiSkill: 60
+          melee: 55
+        currentStats:
+          tu: 80
+          stamina: 50
+          health: 60
+          bravery: 60
+          reactions: 85
+          firing: 85
+          throwing: 40
+          strength: 45
+          psiStrength: 70
+          psiSkill: 60
+          melee: 55
+        rank: 0
+        gender: 0
+        look: 1
+        missions: 0
+        kills: 0
+        armor: STR_NONE_UC
+        improvement: 0
+        psiStrImprovement: 0
+        tags: ~
+      - type: STR_SOLDIER
+        id: 11
+        name: Eric Bachman
+        nationality: 0
+        initialStats:
+          tu: 60
+          stamina: 30
+          health: 60
+          bravery: 70
+          reactions: 50
+          firing: 65
+          throwing: 20
+          strength: 20
+          psiStrength: 110
+          psiSkill: 85
+          melee: 25
+        currentStats:
+          tu: 60
+          stamina: 30
+          health: 60
+          bravery: 70
+          reactions: 50
+          firing: 65
+          throwing: 20
+          strength: 20
+          psiStrength: 110
+          psiSkill: 85
+          melee: 25
+        rank: 0
+        gender: 0
+        look: 2
+        missions: 0
+        kills: 0
+        armor: STR_NONE_UC
+        improvement: 0
+        psiStrImprovement: 0
+        tags: ~
+      - type: STR_SOLDIER
+        id: 12
+        name: Ryan Parks
+        nationality: 0
+        initialStats:
+          tu: 65
+          stamina: 55
+          health: 60
+          bravery: 60
+          reactions: 80
+          firing: 70
+          throwing: 60
+          strength: 40
+          psiStrength: 55
+          psiSkill: 50
+          melee: 25
+        currentStats:
+          tu: 65
+          stamina: 55
+          health: 60
+          bravery: 60
+          reactions: 80
+          firing: 70
+          throwing: 60
+          strength: 40
+          psiStrength: 55
+          psiSkill: 50
+          melee: 25
+        rank: 0
+        gender: 0
+        look: 2
+        missions: 0
+        kills: 0
+        armor: STR_NONE_UC
+        improvement: 0
+        psiStrImprovement: 0
+        tags: ~
+      - type: STR_SOLDIER
+        id: 13
+        name: Stephen Ambrozy
+        nationality: 0
+        initialStats:
+          tu: 90
+          stamina: 30
+          health: 75
+          bravery: 85
+          reactions: 65
+          firing: 50
+          throwing: 50
+          strength: 30
+          psiStrength: 150
+          psiSkill: 20
+          melee: 35
+        currentStats:
+          tu: 90
+          stamina: 30
+          health: 75
+          bravery: 85
+          reactions: 65
+          firing: 50
+          throwing: 50
+          strength: 30
+          psiStrength: 150
+          psiSkill: 20
+          melee: 35
+        rank: 0
+        gender: 0
+        look: 1
+        missions: 0
+        kills: 0
+        armor: STR_NONE_UC
+        improvement: 0
+        psiStrImprovement: 0
+        tags: ~
+      - type: STR_SOLDIER
+        id: 14
+        name: Brian Robert
+        nationality: 0
+        initialStats:
+          tu: 75
+          stamina: 50
+          health: 60
+          bravery: 60
+          reactions: 65
+          firing: 85
+          throwing: 50
+          strength: 35
+          psiStrength: 80
+          psiSkill: 80
+          melee: 65
+        currentStats:
+          tu: 75
+          stamina: 50
+          health: 60
+          bravery: 60
+          reactions: 65
+          firing: 85
+          throwing: 50
+          strength: 35
+          psiStrength: 80
+          psiSkill: 80
+          melee: 65
+        rank: 0
+        gender: 0
+        look: 0
+        missions: 0
+        kills: 0
+        armor: STR_NONE_UC
+        improvement: 0
+        psiStrImprovement: 0
+        tags: ~
+      - type: STR_SOLDIER
+        id: 15
+        name: Brian Thieme
+        nationality: 0
+        initialStats:
+          tu: 60
+          stamina: 40
+          health: 85
+          bravery: 75
+          reactions: 70
+          firing: 75
+          throwing: 45
+          strength: 50
+          psiStrength: 60
+          psiSkill: 90
+          melee: 40
+        currentStats:
+          tu: 60
+          stamina: 40
+          health: 85
+          bravery: 75
+          reactions: 70
+          firing: 75
+          throwing: 45
+          strength: 50
+          psiStrength: 60
+          psiSkill: 90
+          melee: 40
+        rank: 0
+        gender: 0
+        look: 1
+        missions: 0
+        kills: 0
+        armor: STR_NONE_UC
+        improvement: 0
+        psiStrImprovement: 0
+        tags: ~
+      - type: STR_SOLDIER
+        id: 16
+        name: Shawn Parks
+        nationality: 0
+        initialStats:
+          tu: 65
+          stamina: 35
+          health: 90
+          bravery: 90
+          reactions: 70
+          firing: 75
+          throwing: 30
+          strength: 60
+          psiStrength: 75
+          psiSkill: 85
+          melee: 25
+        currentStats:
+          tu: 65
+          stamina: 35
+          health: 90
+          bravery: 90
+          reactions: 70
+          firing: 75
+          throwing: 30
+          strength: 60
+          psiStrength: 75
+          psiSkill: 85
+          melee: 25
+        rank: 0
+        gender: 0
+        look: 2
+        missions: 0
+        kills: 0
+        armor: STR_NONE_UC
+        improvement: 0
+        psiStrImprovement: 0
+        tags: ~
+      - type: STR_SOLDIER
+        id: 17
+        name: Bill Weidemann
+        nationality: 0
+        initialStats:
+          tu: 45
+          stamina: 45
+          health: 90
+          bravery: 60
+          reactions: 55
+          firing: 80
+          throwing: 85
+          strength: 50
+          psiStrength: 60
+          psiSkill: 75
+          melee: 35
+        currentStats:
+          tu: 45
+          stamina: 45
+          health: 90
+          bravery: 60
+          reactions: 55
+          firing: 80
+          throwing: 85
+          strength: 50
+          psiStrength: 60
+          psiSkill: 75
+          melee: 35
+        rank: 0
+        gender: 0
+        look: 2
+        missions: 0
+        kills: 0
+        armor: STR_NONE_UC
+        improvement: 0
+        psiStrImprovement: 0
+        tags: ~
+      - type: STR_SOLDIER
+        id: 18
+        name: Stephen Sobjack
+        nationality: 0
+        initialStats:
+          tu: 70
+          stamina: 45
+          health: 90
+          bravery: 75
+          reactions: 70
+          firing: 60
+          throwing: 75
+          strength: 50
+          psiStrength: 70
+          psiSkill: 50
+          melee: 65
+        currentStats:
+          tu: 70
+          stamina: 45
+          health: 90
+          bravery: 75
+          reactions: 70
+          firing: 60
+          throwing: 75
+          strength: 50
+          psiStrength: 70
+          psiSkill: 50
+          melee: 65
+        rank: 0
+        gender: 0
+        look: 1
+        missions: 0
+        kills: 0
+        armor: STR_NONE_UC
+        improvement: 0
+        psiStrImprovement: 0
+        tags: ~
+      - type: STR_SOLDIER
+        id: 19
+        name: Henry Hauschulz
+        nationality: 0
+        initialStats:
+          tu: 75
+          stamina: 55
+          health: 95
+          bravery: 40
+          reactions: 75
+          firing: 80
+          throwing: 55
+          strength: 50
+          psiStrength: 55
+          psiSkill: 50
+          melee: 60
+        currentStats:
+          tu: 75
+          stamina: 55
+          health: 95
+          bravery: 40
+          reactions: 75
+          firing: 80
+          throwing: 55
+          strength: 50
+          psiStrength: 55
+          psiSkill: 50
+          melee: 60
+        rank: 0
+        gender: 0
+        look: 2
+        missions: 0
+        kills: 0
+        armor: STR_NONE_UC
+        improvement: 0
+        psiStrImprovement: 0
+        tags: ~
+      - type: STR_SOLDIER
+        id: 20
+        name: Justin DeVooght
+        nationality: 0
+        initialStats:
+          tu: 70
+          stamina: 50
+          health: 120
+          bravery: 50
+          reactions: 55
+          firing: 60
+          throwing: 80
+          strength: 65
+          psiStrength: 60
+          psiSkill: 40
+          melee: 65
+        currentStats:
+          tu: 70
+          stamina: 50
+          health: 120
+          bravery: 50
+          reactions: 55
+          firing: 60
+          throwing: 80
+          strength: 65
+          psiStrength: 60
+          psiSkill: 40
+          melee: 65
+        rank: 0
+        gender: 0
+        look: 2
+        missions: 0
+        kills: 0
+        armor: STR_NONE_UC
+        improvement: 0
+        psiStrImprovement: 0
+        tags: ~
+      - type: STR_SOLDIER
+        id: 21
+        name: Ryan Smith
+        nationality: 0
+        initialStats:
+          tu: 70
+          stamina: 45
+          health: 95
+          bravery: 60
+          reactions: 65
+          firing: 75
+          throwing: 40
+          strength: 35
+          psiStrength: 70
+          psiSkill: 70
+          melee: 20
+        currentStats:
+          tu: 70
+          stamina: 45
+          health: 95
+          bravery: 60
+          reactions: 65
+          firing: 75
+          throwing: 40
+          strength: 35
+          psiStrength: 70
+          psiSkill: 70
+          melee: 20
+        rank: 0
+        gender: 0
+        look: 2
+        missions: 0
+        kills: 0
+        armor: STR_NONE_UC
+        improvement: 0
+        psiStrImprovement: 0
+        tags: ~
+      - type: STR_SOLDIER
+        id: 22
+        name: Brad Lipke
+        nationality: 0
+        initialStats:
+          tu: 70
+          stamina: 50
+          health: 90
+          bravery: 50
+          reactions: 80
+          firing: 60
+          throwing: 50
+          strength: 50
+          psiStrength: 65
+          psiSkill: 65
+          melee: 45
+        currentStats:
+          tu: 70
+          stamina: 50
+          health: 90
+          bravery: 50
+          reactions: 80
+          firing: 60
+          throwing: 50
+          strength: 50
+          psiStrength: 65
+          psiSkill: 65
+          melee: 45
+        rank: 0
+        gender: 0
+        look: 2
+        missions: 0
+        kills: 0
+        armor: STR_NONE_UC
+        improvement: 0
+        psiStrImprovement: 0
+        tags: ~
+      - type: STR_SOLDIER
+        id: 23
+        name: David Kessler
+        nationality: 0
+        initialStats:
+          tu: 70
+          stamina: 60
+          health: 80
+          bravery: 60
+          reactions: 75
+          firing: 60
+          throwing: 65
+          strength: 50
+          psiStrength: 65
+          psiSkill: 70
+          melee: 50
+        currentStats:
+          tu: 70
+          stamina: 60
+          health: 80
+          bravery: 60
+          reactions: 75
+          firing: 60
+          throwing: 65
+          strength: 50
+          psiStrength: 65
+          psiSkill: 70
+          melee: 50
+        rank: 0
+        gender: 0
+        look: 1
+        missions: 0
+        kills: 0
+        armor: STR_NONE_UC
+        improvement: 0
+        psiStrImprovement: 0
+        tags: ~
+      - type: STR_SOLDIER
+        id: 24
+        name: Curt Hass
+        nationality: 0
+        initialStats:
+          tu: 85
+          stamina: 65
+          health: 85
+          bravery: 60
+          reactions: 65
+          firing: 85
+          throwing: 60
+          strength: 40
+          psiStrength: 40
+          psiSkill: 40
+          melee: 30
+        currentStats:
+          tu: 85
+          stamina: 65
+          health: 85
+          bravery: 60
+          reactions: 65
+          firing: 85
+          throwing: 60
+          strength: 40
+          psiStrength: 40
+          psiSkill: 40
+          melee: 30
+        rank: 0
+        gender: 0
+        look: 0
+        missions: 0
+        kills: 0
+        armor: STR_NONE_UC
+        improvement: 0
+        psiStrImprovement: 0
+        tags: ~
+      - type: STR_SOLDIER
+        id: 25
+        name: Irwin Oberle
+        nationality: 0
+        initialStats:
+          tu: 75
+          stamina: 70
+          health: 90
+          bravery: 50
+          reactions: 80
+          firing: 60
+          throwing: 65
+          strength: 70
+          psiStrength: 40
+          psiSkill: 30
+          melee: 50
+        currentStats:
+          tu: 75
+          stamina: 70
+          health: 90
+          bravery: 50
+          reactions: 80
+          firing: 60
+          throwing: 65
+          strength: 70
+          psiStrength: 40
+          psiSkill: 30
+          melee: 50
+        rank: 0
+        gender: 0
+        look: 1
+        missions: 0
+        kills: 0
+        armor: STR_NONE_UC
+        improvement: 0
+        psiStrImprovement: 0
+        tags: ~
+      - type: STR_SOLDIER
+        id: 26
+        name: Michael Hauschulz
+        nationality: 0
+        initialStats:
+          tu: 75
+          stamina: 55
+          health: 95
+          bravery: 40
+          reactions: 65
+          firing: 70
+          throwing: 55
+          strength: 45
+          psiStrength: 55
+          psiSkill: 50
+          melee: 45
+        currentStats:
+          tu: 75
+          stamina: 55
+          health: 95
+          bravery: 40
+          reactions: 65
+          firing: 70
+          throwing: 55
+          strength: 45
+          psiStrength: 55
+          psiSkill: 50
+          melee: 45
+        rank: 0
+        gender: 0
+        look: 2
+        missions: 0
+        kills: 0
+        armor: STR_NONE_UC
+        improvement: 0
+        psiStrImprovement: 0
+        tags: ~
+      - type: STR_SOLDIER
+        id: 27
+        name: Bill Connon
+        nationality: 0
+        initialStats:
+          tu: 60
+          stamina: 55
+          health: 95
+          bravery: 60
+          reactions: 60
+          firing: 65
+          throwing: 70
+          strength: 55
+          psiStrength: 50
+          psiSkill: 65
+          melee: 35
+        currentStats:
+          tu: 60
+          stamina: 55
+          health: 95
+          bravery: 60
+          reactions: 60
+          firing: 65
+          throwing: 70
+          strength: 55
+          psiStrength: 50
+          psiSkill: 65
+          melee: 35
+        rank: 0
+        gender: 0
+        look: 0
+        missions: 0
+        kills: 0
+        armor: STR_NONE_UC
+        improvement: 0
+        psiStrImprovement: 0
+        tags: ~
+      - type: STR_SOLDIER
+        id: 28
+        name: Stephen Bersche
+        nationality: 0
+        initialStats:
+          tu: 55
+          stamina: 45
+          health: 100
+          bravery: 50
+          reactions: 40
+          firing: 70
+          throwing: 60
+          strength: 50
+          psiStrength: 40
+          psiSkill: 30
+          melee: 45
+        currentStats:
+          tu: 55
+          stamina: 45
+          health: 100
+          bravery: 50
+          reactions: 40
+          firing: 70
+          throwing: 60
+          strength: 50
+          psiStrength: 40
+          psiSkill: 30
+          melee: 45
+        rank: 0
+        gender: 0
+        look: 2
+        missions: 0
+        kills: 0
+        armor: STR_NONE_UC
+        improvement: 0
+        psiStrImprovement: 0
+        tags: ~
+      - type: STR_SOLDIER
+        id: 29
+        name: Michael Kouri
+        nationality: 0
+        initialStats:
+          tu: 70
+          stamina: 55
+          health: 105
+          bravery: 40
+          reactions: 55
+          firing: 60
+          throwing: 60
+          strength: 60
+          psiStrength: 35
+          psiSkill: 25
+          melee: 50
+        currentStats:
+          tu: 70
+          stamina: 55
+          health: 105
+          bravery: 40
+          reactions: 55
+          firing: 60
+          throwing: 60
+          strength: 60
+          psiStrength: 35
+          psiSkill: 25
+          melee: 50
+        rank: 0
+        gender: 0
+        look: 0
+        missions: 0
+        kills: 0
+        armor: STR_NONE_UC
+        improvement: 0
+        psiStrImprovement: 0
+        tags: ~
+      - type: STR_SOLDIER
+        id: 30
+        name: Eric Marz
+        nationality: 0
+        initialStats:
+          tu: 50
+          stamina: 40
+          health: 120
+          bravery: 60
+          reactions: 50
+          firing: 45
+          throwing: 60
+          strength: 55
+          psiStrength: 30
+          psiSkill: 25
+          melee: 40
+        currentStats:
+          tu: 50
+          stamina: 40
+          health: 120
+          bravery: 60
+          reactions: 50
+          firing: 45
+          throwing: 60
+          strength: 55
+          psiStrength: 30
+          psiSkill: 25
+          melee: 40
+        rank: 0
+        gender: 0
+        look: 0
+        missions: 0
+        kills: 0
+        armor: STR_NONE_UC
+        improvement: 0
+        psiStrImprovement: 0
+        tags: ~
+      - type: STR_SOLDIER
+        id: 31
+        name: Tycho Teoh
+        nationality: 0
+        initialStats:
+          tu: 80
+          stamina: 45
+          health: 65
+          bravery: 80
+          reactions: 75
+          firing: 75
+          throwing: 40
+          strength: 30
+          psiStrength: 85
+          psiSkill: 65
+          melee: 45
+        currentStats:
+          tu: 80
+          stamina: 45
+          health: 65
+          bravery: 80
+          reactions: 75
+          firing: 75
+          throwing: 40
+          strength: 30
+          psiStrength: 85
+          psiSkill: 65
+          melee: 45
+        rank: 0
+        gender: 0
+        look: 2
+        missions: 0
+        kills: 0
+        armor: STR_NONE_UC
+        improvement: 0
+        psiStrImprovement: 0
+        tags: ~
+      - type: STR_SOLDIER
+        id: 32
+        name: Tony Pulice
+        nationality: 0
+        initialStats:
+          tu: 75
+          stamina: 50
+          health: 60
+          bravery: 60
+          reactions: 75
+          firing: 65
+          throwing: 50
+          strength: 40
+          psiStrength: 80
+          psiSkill: 50
+          melee: 40
+        currentStats:
+          tu: 75
+          stamina: 50
+          health: 60
+          bravery: 60
+          reactions: 75
+          firing: 65
+          throwing: 50
+          strength: 40
+          psiStrength: 80
+          psiSkill: 50
+          melee: 40
+        rank: 0
+        gender: 0
+        look: 2
+        missions: 0
+        kills: 0
+        armor: STR_NONE_UC
+        improvement: 0
+        psiStrImprovement: 0
+        tags: ~
+      - type: STR_SOLDIER
+        id: 33
+        name: Aaron Miller
+        nationality: 0
+        initialStats:
+          tu: 80
+          stamina: 75
+          health: 60
+          bravery: 50
+          reactions: 60
+          firing: 55
+          throwing: 55
+          strength: 40
+          psiStrength: 60
+          psiSkill: 65
+          melee: 25
+        currentStats:
+          tu: 80
+          stamina: 75
+          health: 60
+          bravery: 50
+          reactions: 60
+          firing: 55
+          throwing: 55
+          strength: 40
+          psiStrength: 60
+          psiSkill: 65
+          melee: 25
+        rank: 0
+        gender: 0
+        look: 2
+        missions: 0
+        kills: 0
+        armor: STR_NONE_UC
+        improvement: 0
+        psiStrImprovement: 0
+        tags: ~
+      - type: STR_SOLDIER
+        id: 34
+        name: Chad Parker
+        nationality: 0
+        initialStats:
+          tu: 70
+          stamina: 50
+          health: 75
+          bravery: 70
+          reactions: 65
+          firing: 70
+          throwing: 55
+          strength: 40
+          psiStrength: 55
+          psiSkill: 65
+          melee: 45
+        currentStats:
+          tu: 70
+          stamina: 50
+          health: 75
+          bravery: 70
+          reactions: 65
+          firing: 70
+          throwing: 55
+          strength: 40
+          psiStrength: 55
+          psiSkill: 65
+          melee: 45
+        rank: 0
+        gender: 0
+        look: 0
+        missions: 0
+        kills: 0
+        armor: STR_NONE_UC
+        improvement: 0
+        psiStrImprovement: 0
+        tags: ~
+      - type: STR_SOLDIER
+        id: 35
+        name: Roberto Fazzalari
+        nationality: 0
+        initialStats:
+          tu: 70
+          stamina: 50
+          health: 80
+          bravery: 70
+          reactions: 70
+          firing: 65
+          throwing: 65
+          strength: 40
+          psiStrength: 50
+          psiSkill: 50
+          melee: 35
+        currentStats:
+          tu: 70
+          stamina: 50
+          health: 80
+          bravery: 70
+          reactions: 70
+          firing: 65
+          throwing: 65
+          strength: 40
+          psiStrength: 50
+          psiSkill: 50
+          melee: 35
+        rank: 0
+        gender: 0
+        look: 2
+        missions: 0
+        kills: 0
+        armor: STR_NONE_UC
+        improvement: 0
+        psiStrImprovement: 0
+        tags: ~
+      - type: STR_SOLDIER
+        id: 36
+        name: Shane Unsworth
+        nationality: 0
+        initialStats:
+          tu: 65
+          stamina: 55
+          health: 80
+          bravery: 60
+          reactions: 65
+          firing: 65
+          throwing: 55
+          strength: 50
+          psiStrength: 65
+          psiSkill: 65
+          melee: 31
+        currentStats:
+          tu: 65
+          stamina: 55
+          health: 80
+          bravery: 60
+          reactions: 65
+          firing: 65
+          throwing: 55
+          strength: 50
+          psiStrength: 65
+          psiSkill: 65
+          melee: 31
+        rank: 0
+        gender: 0
+        look: 1
+        missions: 0
+        kills: 0
+        armor: STR_NONE_UC
+        improvement: 0
+        psiStrImprovement: 0
+        tags: ~
+      - type: STR_SOLDIER
+        id: 37
+        name: Ryan Wright
+        nationality: 0
+        initialStats:
+          tu: 55
+          stamina: 45
+          health: 90
+          bravery: 80
+          reactions: 70
+          firing: 70
+          throwing: 65
+          strength: 65
+          psiStrength: 65
+          psiSkill: 65
+          melee: 60
+        currentStats:
+          tu: 55
+          stamina: 45
+          health: 90
+          bravery: 80
+          reactions: 70
+          firing: 70
+          throwing: 65
+          strength: 65
+          psiStrength: 65
+          psiSkill: 65
+          melee: 60
+        rank: 0
+        gender: 0
+        look: 1
+        missions: 0
+        kills: 0
+        armor: STR_NONE_UC
+        improvement: 0
+        psiStrImprovement: 0
+        tags: ~
+      - type: STR_SOLDIER
+        id: 38
+        name: Jon Stump
+        nationality: 0
+        initialStats:
+          tu: 60
+          stamina: 50
+          health: 95
+          bravery: 60
+          reactions: 60
+          firing: 60
+          throwing: 50
+          strength: 45
+          psiStrength: 65
+          psiSkill: 65
+          melee: 31
+        currentStats:
+          tu: 60
+          stamina: 50
+          health: 95
+          bravery: 60
+          reactions: 60
+          firing: 60
+          throwing: 50
+          strength: 45
+          psiStrength: 65
+          psiSkill: 65
+          melee: 31
+        rank: 0
+        gender: 0
+        look: 2
+        missions: 0
+        kills: 0
+        armor: STR_NONE_UC
+        improvement: 0
+        psiStrImprovement: 0
+        tags: ~
+      - type: STR_SOLDIER
+        id: 39
+        name: Jase Bell
+        nationality: 0
+        initialStats:
+          tu: 75
+          stamina: 40
+          health: 60
+          bravery: 80
+          reactions: 70
+          firing: 80
+          throwing: 40
+          strength: 50
+          psiStrength: 60
+          psiSkill: 55
+          melee: 45
+        currentStats:
+          tu: 75
+          stamina: 40
+          health: 60
+          bravery: 80
+          reactions: 70
+          firing: 80
+          throwing: 40
+          strength: 50
+          psiStrength: 60
+          psiSkill: 55
+          melee: 45
+        rank: 0
+        gender: 0
+        look: 0
+        missions: 0
+        kills: 0
+        armor: STR_NONE_UC
+        improvement: 0
+        psiStrImprovement: 0
+        tags: ~
+      - type: STR_SOLDIER
+        id: 40
+        name: Jim Gaines
+        nationality: 0
+        initialStats:
+          tu: 65
+          stamina: 55
+          health: 125
+          bravery: 70
+          reactions: 65
+          firing: 65
+          throwing: 55
+          strength: 70
+          psiStrength: 65
+          psiSkill: 65
+          melee: 40
+        currentStats:
+          tu: 65
+          stamina: 55
+          health: 125
+          bravery: 70
+          reactions: 65
+          firing: 65
+          throwing: 55
+          strength: 70
+          psiStrength: 65
+          psiSkill: 65
+          melee: 40
+        rank: 0
+        gender: 0
+        look: 3
+        missions: 0
+        kills: 0
+        armor: STR_NONE_UC
+        improvement: 0
+        psiStrImprovement: 0
+        tags: ~
+      - type: STR_SOLDIER
+        id: 41
+        name: Skylar Blank
+        nationality: 0
+        initialStats:
+          tu: 60
+          stamina: 60
+          health: 75
+          bravery: 50
+          reactions: 60
+          firing: 65
+          throwing: 40
+          strength: 45
+          psiStrength: 55
+          psiSkill: 55
+          melee: 31
+        currentStats:
+          tu: 60
+          stamina: 60
+          health: 75
+          bravery: 50
+          reactions: 60
+          firing: 65
+          throwing: 40
+          strength: 45
+          psiStrength: 55
+          psiSkill: 55
+          melee: 31
+        rank: 0
+        gender: 0
+        look: 0
+        missions: 0
+        kills: 0
+        armor: STR_NONE_UC
+        improvement: 0
+        psiStrImprovement: 0
+        tags: ~
+      - type: STR_SOLDIER
+        id: 42
+        name: Rachel Bender
+        nationality: 0
+        initialStats:
+          tu: 55
+          stamina: 45
+          health: 40
+          bravery: 80
+          reactions: 65
+          firing: 70
+          throwing: 35
+          strength: 35
+          psiStrength: 90
+          psiSkill: 85
+          melee: 25
+        currentStats:
+          tu: 55
+          stamina: 45
+          health: 40
+          bravery: 80
+          reactions: 65
+          firing: 70
+          throwing: 35
+          strength: 35
+          psiStrength: 90
+          psiSkill: 85
+          melee: 25
+        rank: 0
+        gender: 1
+        look: 2
+        missions: 0
+        kills: 0
+        armor: STR_NONE_UC
+        improvement: 0
+        psiStrImprovement: 0
+        tags: ~
+      - type: STR_SOLDIER
+        id: 43
+        name: Jack Lee
+        nationality: 0
+        initialStats:
+          tu: 75
+          stamina: 70
+          health: 65
+          bravery: 80
+          reactions: 80
+          firing: 80
+          throwing: 35
+          strength: 45
+          psiStrength: 55
+          psiSkill: 55
+          melee: 70
+        currentStats:
+          tu: 75
+          stamina: 70
+          health: 65
+          bravery: 80
+          reactions: 80
+          firing: 80
+          throwing: 35
+          strength: 45
+          psiStrength: 55
+          psiSkill: 55
+          melee: 70
+        rank: 0
+        gender: 0
+        look: 0
+        missions: 0
+        kills: 0
+        armor: STR_NONE_UC
+        improvement: 0
+        psiStrImprovement: 0
+        tags: ~
+      - type: STR_SOLDIER
+        id: 44
+        name: Badger Jones
+        nationality: 0
+        initialStats:
+          tu: 70
+          stamina: 80
+          health: 70
+          bravery: 90
+          reactions: 75
+          firing: 70
+          throwing: 55
+          strength: 45
+          psiStrength: 55
+          psiSkill: 55
+          melee: 80
+        currentStats:
+          tu: 70
+          stamina: 80
+          health: 70
+          bravery: 90
+          reactions: 75
+          firing: 70
+          throwing: 55
+          strength: 45
+          psiStrength: 55
+          psiSkill: 55
+          melee: 80
+        rank: 0
+        gender: 0
+        look: 0
+        missions: 0
+        kills: 0
+        armor: STR_NONE_UC
+        improvement: 0
+        psiStrImprovement: 0
+        tags: ~
+      - type: STR_SOLDIER
+        id: 45
+        name: Michael Burton
+        nationality: 0
+        initialStats:
+          tu: 65
+          stamina: 55
+          health: 80
+          bravery: 60
+          reactions: 50
+          firing: 70
+          throwing: 45
+          strength: 50
+          psiStrength: 65
+          psiSkill: 40
+          melee: 45
+        currentStats:
+          tu: 65
+          stamina: 55
+          health: 80
+          bravery: 60
+          reactions: 50
+          firing: 70
+          throwing: 45
+          strength: 50
+          psiStrength: 65
+          psiSkill: 40
+          melee: 45
+        rank: 0
+        gender: 0
+        look: 1
+        missions: 0
+        kills: 0
+        armor: STR_NONE_UC
+        improvement: 0
+        psiStrImprovement: 0
+        tags: ~
+      - type: STR_SOLDIER
+        id: 46
+        name: Byron Mosley
+        nationality: 0
+        initialStats:
+          tu: 65
+          stamina: 50
+          health: 85
+          bravery: 40
+          reactions: 70
+          firing: 70
+          throwing: 45
+          strength: 55
+          psiStrength: 65
+          psiSkill: 55
+          melee: 40
+        currentStats:
+          tu: 65
+          stamina: 50
+          health: 85
+          bravery: 40
+          reactions: 70
+          firing: 70
+          throwing: 45
+          strength: 55
+          psiStrength: 65
+          psiSkill: 55
+          melee: 40
+        rank: 0
+        gender: 0
+        look: 3
+        missions: 0
+        kills: 0
+        armor: STR_NONE_UC
+        improvement: 0
+        psiStrImprovement: 0
+        tags: ~
+      - type: STR_SOLDIER
+        id: 47
+        name: David Vandenabeele
+        nationality: 0
+        initialStats:
+          tu: 50
+          stamina: 40
+          health: 55
+          bravery: 90
+          reactions: 85
+          firing: 70
+          throwing: 35
+          strength: 45
+          psiStrength: 100
+          psiSkill: 75
+          melee: 25
+        currentStats:
+          tu: 50
+          stamina: 40
+          health: 55
+          bravery: 90
+          reactions: 85
+          firing: 70
+          throwing: 35
+          strength: 45
+          psiStrength: 100
+          psiSkill: 75
+          melee: 25
+        rank: 0
+        gender: 1
+        look: 0
+        missions: 0
+        kills: 0
+        armor: STR_NONE_UC
+        improvement: 0
+        psiStrImprovement: 0
+        tags: ~
+      - type: STR_SOLDIER
+        id: 48
+        name: Telka Curtis
+        nationality: 0
+        initialStats:
+          tu: 75
+          stamina: 45
+          health: 40
+          bravery: 70
+          reactions: 65
+          firing: 70
+          throwing: 35
+          strength: 35
+          psiStrength: 60
+          psiSkill: 60
+          melee: 35
+        currentStats:
+          tu: 75
+          stamina: 45
+          health: 40
+          bravery: 70
+          reactions: 65
+          firing: 70
+          throwing: 35
+          strength: 35
+          psiStrength: 60
+          psiSkill: 60
+          melee: 35
+        rank: 0
+        gender: 1
+        look: 2
+        missions: 0
+        kills: 0
+        armor: STR_NONE_UC
+        improvement: 0
+        psiStrImprovement: 0
+        tags: ~
+      - type: STR_SOLDIER
+        id: 49
+        name: Leon Edwards
+        nationality: 0
+        initialStats:
+          tu: 75
+          stamina: 55
+          health: 70
+          bravery: 80
+          reactions: 60
+          firing: 80
+          throwing: 40
+          strength: 55
+          psiStrength: 50
+          psiSkill: 40
+          melee: 45
+        currentStats:
+          tu: 75
+          stamina: 55
+          health: 70
+          bravery: 80
+          reactions: 60
+          firing: 80
+          throwing: 40
+          strength: 55
+          psiStrength: 50
+          psiSkill: 40
+          melee: 45
+        rank: 0
+        gender: 0
+        look: 3
+        missions: 0
+        kills: 0
+        armor: STR_NONE_UC
+        improvement: 0
+        psiStrImprovement: 0
+        tags: ~
+      - type: STR_SOLDIER
+        id: 50
+        name: Amber Robin
+        nationality: 0
+        initialStats:
+          tu: 55
+          stamina: 45
+          health: 50
+          bravery: 70
+          reactions: 65
+          firing: 70
+          throwing: 35
+          strength: 35
+          psiStrength: 95
+          psiSkill: 95
+          melee: 40
+        currentStats:
+          tu: 55
+          stamina: 45
+          health: 50
+          bravery: 70
+          reactions: 65
+          firing: 70
+          throwing: 35
+          strength: 35
+          psiStrength: 95
+          psiSkill: 95
+          melee: 40
+        rank: 0
+        gender: 1
+        look: 0
+        missions: 0
+        kills: 0
+        armor: STR_NONE_UC
+        improvement: 0
+        psiStrImprovement: 0
+        tags: ~
+      - type: STR_SOLDIER
+        id: 51
+        name: Jeremy Wolfe
+        nationality: 0
+        initialStats:
+          tu: 60
+          stamina: 40
+          health: 95
+          bravery: 60
+          reactions: 50
+          firing: 70
+          throwing: 40
+          strength: 50
+          psiStrength: 60
+          psiSkill: 40
+          melee: 45
+        currentStats:
+          tu: 60
+          stamina: 40
+          health: 95
+          bravery: 60
+          reactions: 50
+          firing: 70
+          throwing: 40
+          strength: 50
+          psiStrength: 60
+          psiSkill: 40
+          melee: 45
+        rank: 0
+        gender: 0
+        look: 2
+        missions: 0
+        kills: 0
+        armor: STR_NONE_UC
+        improvement: 0
+        psiStrImprovement: 0
+        tags: ~
+      - type: STR_SOLDIER
+        id: 52
+        name: Sean Elbode
+        nationality: 0
+        initialStats:
+          tu: 65
+          stamina: 55
+          health: 95
+          bravery: 60
+          reactions: 50
+          firing: 65
+          throwing: 40
+          strength: 70
+          psiStrength: 50
+          psiSkill: 40
+          melee: 45
+        currentStats:
+          tu: 65
+          stamina: 55
+          health: 95
+          bravery: 60
+          reactions: 50
+          firing: 65
+          throwing: 40
+          strength: 70
+          psiStrength: 50
+          psiSkill: 40
+          melee: 45
+        rank: 0
+        gender: 0
+        look: 1
+        missions: 0
+        kills: 0
+        armor: STR_NONE_UC
+        improvement: 0
+        psiStrImprovement: 0
+        tags: ~
+      - type: STR_SOLDIER
+        id: 53
+        name: Greg May
+        nationality: 0
+        initialStats:
+          tu: 75
+          stamina: 65
+          health: 70
+          bravery: 60
+          reactions: 70
+          firing: 65
+          throwing: 45
+          strength: 40
+          psiStrength: 65
+          psiSkill: 65
+          melee: 25
+        currentStats:
+          tu: 75
+          stamina: 65
+          health: 70
+          bravery: 60
+          reactions: 70
+          firing: 65
+          throwing: 45
+          strength: 40
+          psiStrength: 65
+          psiSkill: 65
+          melee: 25
+        rank: 0
+        gender: 0
+        look: 2
+        missions: 0
+        kills: 0
+        armor: STR_NONE_UC
+        improvement: 0
+        psiStrImprovement: 0
+        tags: ~
+      - type: STR_SOLDIER
+        id: 54
+        name: Danny El
+        nationality: 0
+        initialStats:
+          tu: 60
+          stamina: 45
+          health: 80
+          bravery: 70
+          reactions: 60
+          firing: 70
+          throwing: 40
+          strength: 50
+          psiStrength: 55
+          psiSkill: 40
+          melee: 45
+        currentStats:
+          tu: 60
+          stamina: 45
+          health: 80
+          bravery: 70
+          reactions: 60
+          firing: 70
+          throwing: 40
+          strength: 50
+          psiStrength: 55
+          psiSkill: 40
+          melee: 45
+        rank: 0
+        gender: 0
+        look: 2
+        missions: 0
+        kills: 0
+        armor: STR_NONE_UC
+        improvement: 0
+        psiStrImprovement: 0
+        tags: ~
+      - type: STR_SOLDIER
+        id: 55
+        name: Jacob O'Boyle
+        nationality: 0
+        initialStats:
+          tu: 60
+          stamina: 40
+          health: 90
+          bravery: 60
+          reactions: 50
+          firing: 70
+          throwing: 40
+          strength: 45
+          psiStrength: 65
+          psiSkill: 55
+          melee: 31
+        currentStats:
+          tu: 60
+          stamina: 40
+          health: 90
+          bravery: 60
+          reactions: 50
+          firing: 70
+          throwing: 40
+          strength: 45
+          psiStrength: 65
+          psiSkill: 55
+          melee: 31
+        rank: 0
+        gender: 0
+        look: 1
+        missions: 0
+        kills: 0
+        armor: STR_NONE_UC
+        improvement: 0
+        psiStrImprovement: 0
+        tags: ~
+      - type: STR_SOLDIER
+        id: 56
+        name: Adam Fata
+        nationality: 0
+        initialStats:
+          tu: 70
+          stamina: 45
+          health: 85
+          bravery: 60
+          reactions: 70
+          firing: 85
+          throwing: 45
+          strength: 50
+          psiStrength: 50
+          psiSkill: 45
+          melee: 31
+        currentStats:
+          tu: 70
+          stamina: 45
+          health: 85
+          bravery: 60
+          reactions: 70
+          firing: 85
+          throwing: 45
+          strength: 50
+          psiStrength: 50
+          psiSkill: 45
+          melee: 31
+        rank: 0
+        gender: 0
+        look: 2
+        missions: 0
+        kills: 0
+        armor: STR_NONE_UC
+        improvement: 0
+        psiStrImprovement: 0
+        tags: ~
+      - type: STR_SOLDIER
+        id: 57
+        name: John Schmidt
+        nationality: 0
+        initialStats:
+          tu: 65
+          stamina: 55
+          health: 125
+          bravery: 60
+          reactions: 60
+          firing: 65
+          throwing: 55
+          strength: 70
+          psiStrength: 50
+          psiSkill: 65
+          melee: 40
+        currentStats:
+          tu: 65
+          stamina: 55
+          health: 125
+          bravery: 60
+          reactions: 60
+          firing: 65
+          throwing: 55
+          strength: 70
+          psiStrength: 50
+          psiSkill: 65
+          melee: 40
+        rank: 0
+        gender: 0
+        look: 2
+        missions: 0
+        kills: 0
+        armor: STR_NONE_UC
+        improvement: 0
+        psiStrImprovement: 0
+        tags: ~
+      - type: STR_SOLDIER
+        id: 58
+        name: Brandon Sandford
+        nationality: 0
+        initialStats:
+          tu: 80
+          stamina: 80
+          health: 65
+          bravery: 70
+          reactions: 70
+          firing: 70
+          throwing: 40
+          strength: 40
+          psiStrength: 50
+          psiSkill: 45
+          melee: 60
+        currentStats:
+          tu: 80
+          stamina: 80
+          health: 65
+          bravery: 70
+          reactions: 70
+          firing: 70
+          throwing: 40
+          strength: 40
+          psiStrength: 50
+          psiSkill: 45
+          melee: 60
+        rank: 0
+        gender: 0
+        look: 2
+        missions: 0
+        kills: 0
+        armor: STR_NONE_UC
+        improvement: 0
+        psiStrImprovement: 0
+        tags: ~
